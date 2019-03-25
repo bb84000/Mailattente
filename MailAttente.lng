@@ -1,0 +1,350 @@
+            ;Languages File/Fichier de langues
+;It is possible to create a new language using its Windows ID as new section
+;Il est possible de créer une nouvelle langue en utilisant son identifiant Windows
+;Danish	[6], Dutch [19], Finnish [11], German [7], Greek [8], Hungarian [14]
+;Icelandic [15], Italian [16], Norwegian [20], Polish [21], Portuguese [22]
+;Russian [25], Serbo Croatian [26], Slovak [27], Swedish [29], Turkish [31]
+
+;Save this file in a secure place if you change it, it will be replaced by any update !
+
+;English
+[9]
+;General
+Language=English
+Caption=New mail notification
+AboutBoxCaption=About
+AboutBox.ErrorMessage=URL launch error
+
+UpdateCaption=Check update
+AccountCaption=Account
+FromCaption=From
+ToCaption=To
+SubjectCaption=Subject
+DateCaption=Date
+SizeCaption=Size
+ByteCaption=bytes
+GBInfo.Caption=Information
+MnuFiles.Caption=Files
+MnuImport.Caption=Import
+SbMnuImportOExpress.Caption=Outlook Express accounts
+SbMnuImportOutlook.Caption=Office accounts
+SbMnuImportWMail.Caption=Windows Mail accounts
+SbMnuImportWLM.Caption=Windows Live Mail accounts
+ImportIAF.Caption=IAF files
+ImportOEAcc.Caption=OEAccount files
+MnuClose.Caption=Close
+MnuQuit.Caption=Quit
+MnuMessages=Messages
+MnuGetAll.Caption=Check mail of all accounts
+BtnGetCurrentCaption=Check %s account
+BtnShowLog.Caption=Account Log
+SelectCaption=selected
+MnuGetCurrent.Caption=Check account...
+MnuPrefs.Caption=Preferences
+SbMenuOptions.Caption=Options
+SbMnuAccounts.Caption=Accounts
+MnuAbout.Caption=About...
+MnuLaunchClient.Caption=Launch mail client
+MnuHelp.Caption=Help
+UpdateAvailable=New version %s available
+NoLongerChkUpdates=No longer check updates
+LastUpdateSearch=Last update check
+PMnuAnswer.Caption=Answer the selected message
+AccountBusy=Mail check pending
+CannotModify=cannot modify !
+CannotDelete=cannot delete !
+EmailAddress=Email address
+ReplyEmailAddress=Reply email address
+LastChkCaption=Last check
+NextChkCaption=Next check
+
+
+;Accounts
+AccountsSetup=Accounts setup
+AccountsImport=Accounts import
+BtnAddCaption=Add
+BtnCopyCaption=Copy
+BtnApply.Caption=Apply
+BtnDel.Caption=Delete
+BtnCancel.Caption=Cancel
+PMnuAccsB.Caption=Move to down
+PMnuAccsH.Caption=Move to up
+PMnuAccsD.Caption=Delete
+CBActiveAcc.Caption=Active account
+LAccName.Caption=Account name
+LHost.Caption=Host
+LPort.Caption=Port
+LProt.Caption=Protocol
+CBAuth.Caption=Secure authentification
+LUser.Caption=Mail user name
+LPass.Caption=Password
+LColor.Caption=Color
+LInterval.Caption=Interval
+LMin.Caption=minutes
+LMailCli.Caption=Mail client
+Lsound.Caption=Sound
+CBSSL.Items[0]=No SSL
+CBSSL.Items[1]=Implicit (TLS onnection)
+CBSSL.Items[2]=Explicit (STLS)
+SelectMailClient=Select mail client
+SelectSound=Select sound
+MailClientFile=Mail client
+SoundFile=Sound file
+IntervalHint0=Periodic check disabled
+IntervalHint1=A too small interval can lock your account.%s10 minutes minimum is recommendended%sEnter 0 to disable periodic check
+IntervalHint2=Enter 0 to disable periodic check
+WarningDelete=Do you want really delete the %s account ?
+MailToMissing=Mailto protocol not set. Please check your mail client settings
+
+
+;alerts
+NoNewMail=No new message
+DeleteMessagesBox=Click Yes to immediately delete the message$s %sor No to delete the message$s on next check.
+DeleteMessages=Effacement de message(s)
+NoAccountFound=%s accounts not found
+FileReadErr=Error reading
+
+
+;status
+Connecting=Connecting to %s mail server...
+Authenticating=Authentifying %s...
+AuthenticatingError=Authentification error
+SendingUserName=Sending %s user name
+SendingPassword=Sending %s password
+CountingMessages=Counting %s messages
+ListingMessages=Listing message #%u on %s
+NoMailFound=No mail found on %s
+MailFound=%u mail(s) found on %s
+RetrievingUIDLs=Retrieving message UIDL #%u on %s
+RetrievingHeaders=Retrieving message header #%u on %s
+RetrievingCompleted=Retrieveing completed
+GotMessages=Got %u message(s) on %s account on %s
+DeletingMessage=Deleting message %s of %s
+CurrChecking=Checking mail
+AbortTimeout=Abort by timeout on %s
+NextCheckCaption=Next check on %s
+SessionClosedCaption=%s: session %s closed
+NewMessagesCaption=%u new message(s) on %s
+MnuDeleteMsgCaption=Delete message$s
+MnuRestoreMsgCaption=Restore messages$s
+MnuDeleteSelMsgCaption=Delete selected message
+AddedAccount=Added %s account on %s
+ChangedAccount=Changed %s account on %s
+DeletedAccount=Deleted %s account on %s
+ConnectionError=Connection error
+
+LogCreated=Log created on %s
+
+;prefs
+CBStartWin.Caption=Launch at Windows start
+CBStartMini.Caption=Launch minimized in tray
+CBSavSizePos.Caption=Save program's window position and size
+CBMailClientMini.Caption=Minimize whan launching mail client
+CBRestNewMsg.Caption=Restore on new message if minimized
+CBSaveLogs.Caption=Save log
+LLanguage.Caption=Language
+CBStartupCheck.Caption=Check mail at startup
+CBSequentialCheck.Caption=Sequential check
+CBSmoothScroll.Caption=Smooth scroll buttons
+
+;log
+AccountLogCaption=Account %s log
+PMnuCopy.Caption=Copy
+PMnuCopyAll.Caption=Copy all
+
+
+;Colors
+clBlack=Black
+clMaroon=Maroon
+clGreen=Green
+clOlive=Olive
+clNavy=Navy
+clPurple=Purple
+clTeal=Teal
+clGray=Gray
+clSilver=Silver
+clRed=Red
+clLime=Lime
+clYellow=Yellow
+clBlue=Blue
+clFuchsia=Fuchsia
+clAqua=Aqua
+clWhite=White
+clMoneyGreen=MoneyGreen
+clSkyBlue=SkyBlue
+clCream=Cream
+clMedGray=MedGray
+
+;Français
+[12]
+;General
+Language=Français
+Caption=Notification de nouveaux messages
+AboutBoxCaption=A propos de
+AboutBox.ErrorMessage=Erreur de lancement de l'URL
+UpdateCaption=Recherche de mise à jour
+LastUpdateSearch=Dernière recherche de mise à jour
+
+
+AccountCaption=Compte
+FromCaption=De
+ToCaption=A
+SubjectCaption=Objet
+Date=Date
+SizeCaption=Taille
+ByteCaption=octets
+GBInfo.Caption=Informations
+MnuFiles.Caption=Fichiers
+MnuImport.Caption=Importer
+SbMnuImportOExpress.Caption=Comptes Outlook Express
+SbMnuImportOutlook.Caption=Comptes Outlook
+SbMnuImportWMail.Caption=Comptes Windows Mail
+SbMnuImportWLM.Caption=Comptes Windows Live Mail
+ImportIAFCaption=Fichiers IAF
+ImportOEAccCaption=Fichiers OEAccount
+MnuClose.Caption=Fermer
+MnuQuit.Caption=Quitter
+MnuMessages=Messages
+MnuGetAll.Caption=Vérifier tous les comptes
+MnuGetCurrent.Caption=Vérifier le compte...
+BtnGetCurrentCaption=Vérifier le compte %s
+BtnShowLog.Caption=Journal
+SelectCaption=sélectionné
+MnuPrefs.Caption=Préférences
+SbMenuOptions.Caption=Options
+SbMnuAccounts.Caption=Configuration des comptes
+MnuAbout.Caption=A propos...
+MnuLaunchClient.Caption=Lancer le client courrier
+PMnuAnswer.Caption=Répondre au message sélectionné
+MnuDeleteMsgCaption=Effacer le$s message$s
+MnuRestoreMsgCaption=Restaurer le$s message$s
+MnuDeleteSelMsgCaption=Effacer le message sélectionné
+MnuHelp.Caption= Aide
+UpdateAvailable=Nouvelle version %s disponible
+NoLongerChkUpdates=Ne plus rechercher de mise à jour
+AccountBusy=Vérification du courrier en cours
+CannotModify=modification impossible !
+CannotDelete=suppression impossible !
+EmailAddress=Adresse mail
+ReplyEmailAddress=Adresse de réponse
+LastChkCaption=Dernière vérification
+NextChkCaption=Prochaine vérification
+
+
+;Accounts
+AccountsSetup=Configuration des comptes
+AccountsImport=Importation de comptes
+BtnAddCaption=Ajouter
+BtnApply.Caption=Appliquer
+BtnCopyCaption=Copier
+BtnDel.Caption=Effacer
+BtnCancel.Caption=Annuler
+PMnuAccsB.Caption=Déplacer vers le bas
+PMnuAccsH.Caption=Déplacer vers le haut
+PMnuAccsD.Caption=Effacer
+CBActiveAcc.Caption=Compte actif
+LAccName.Caption=Nom du compte
+LHost.Caption=Serveur
+LPort.Caption=Port
+LProt.Caption=Protocole
+CBAuth.Caption=Authentification sécurisée
+LUser.Caption=Identifiant mail
+LPass.Caption=Mot de passe
+LColor.Caption=Couleur
+LInterval.Caption=Intervalle
+LMin.Caption=minutes
+LMailCli.Caption=Client courrier
+Lsound.Caption=Son
+CBSSL.Items[0]=Pas de SSL
+CBSSL.Items[1]=Implicite (Connexion TLS)
+CBSSL.Items[2]=Explicite (STLS)
+SelectMailClient=Choisir le client mail
+SelectSound=Choisir le son
+MailClientFile=Client Mail
+SoundFile=Fichier son
+IntervalHint0=Vérification périodique désactivée
+IntervalHint1=Un intervalle trop faible peut bloquer votre compte.%sUn minimum de 10 minutes est conseillé%sEntrez 0 pour désactiver la vérification périodique
+IntervalHint2=Entrez 0 pour désactiver la vérification périodique
+WarningDelete=Voulez-vous vraiment effacer le compte %s ?
+
+;prefs
+CBStartWin.Caption=Lance au démarrage de Windows
+CBStartMini.Caption=Démarrage minimisé
+CBSavSizePos.Caption=Sauvegarder la position et la taille de la fenêtre
+CBMailClientMini.Caption=Minimiser lors du lancement du client de courrier
+CBRestNewMsg.Caption=Restaurer la fenêtre lors de nouveaux messages
+CBSaveLogs.Caption=Conserver le journal
+LLanguage.Caption=Langue
+CBStartupCheck.Caption=Vérifier le courrier au démarrage
+CBSequentialCheck.Caption=Vérification séquentielle
+CBSmoothScroll.Caption=Défilement des boutons fluide
+
+;alerts
+NoNewMail=Pas de nouveau message
+DeleteMessagesBox=Cliquez sur Oui pour effacer immédiatement le$s message$s %sou sur Non pour effacer le$s message$s à la prochaine vérification.
+DeleteMessages=Effacement de message(s)
+NoAccountFound=Pas de comptes %s trouvés
+FileReadErr=Erreur de lecture de
+
+;status
+Connecting=Connexion au serveur de courrier %s...
+Authenticating=Authentification de %s...
+AuthenticatingError=Erreur d'authentification
+SendingUserName=Envoi de l'identifiant de %s
+SendingPassword=Envoi du mot de passe de %s
+CountingMessages=Décompte les messages de %s
+ListingMessages=Listing du message #%u de %s
+NoMailFound=Pas de message trouvé sur %s
+MailFound=%u message(s) trouvé(s) sur %s
+RetrievingUIDLs=Récupération de l'UIDL #%u de %s
+RetrievingHeaders=Récupération de l'entête de message #%u de %s
+RetrievingCompleted=Récupération terminée
+
+GotMessages=Trouvé %u message(s) sur le compte %s le %s
+DeletingMessage=Effacement du message %s de %s
+CurrChecking=Vérification en cours
+AbortTimeout=Abandon par dépassement de délai le %s
+ConnectionError=Erreur de connexion
+
+NextCheckCaption=Prochaine vérification le %s
+SessionClosedCaption=%s: session %s terminée
+NewMessagesCaption=%u nouveaux message(s) le %s
+AddedAccount=Compte %s ajouté le %s
+ChangedAccount=Compte %s modifié le %s
+DeletedAccount=Compte %s supprimé le %s
+MailToMissing=Protocole Mailto non configuré. Vérifiez la configuration de votre client courrier
+
+LogCreated=Journal créé le %s
+
+;log
+AccountLogCaption=Journal du compte %s
+PMnuCopy.Caption=Copier
+PMnuCopyAll.Caption=Copier tout
+
+
+
+;Colors
+clBlack=Noir
+clMaroon=Marron
+clGreen=Vert
+clOlive=Olive
+clNavy=Bleu marine
+clPurple=Pourpre
+clTeal=Cyan
+clGray=Gris
+clSilver=Argent
+clRed=Rouge
+clLime=Vert clair
+clYellow=Jaune
+clBlue=Bleu
+clFuchsia=Fuchsia
+clAqua=Turquoise
+clWhite=Blanc
+clMoneyGreen=Vert foncé
+clSkyBlue=Bleu ciel
+clCream=Crème
+clMedGray=Gris moyen
+
+
+
+

@@ -1,0 +1,96 @@
+Mail notifier application
+Version 1.0.1.8
+
+(Explication en Français à la fin de ce fichier)
+
+OBJECT
+Check if there are mails on pop3 mailboxes.
+
+INSTALLATION
+Extract archive and run InstallMailAttente.exe, then follow instructions of the setup program.
+
+USAGE
+On first run, MailAttente creates a fake mail account, you have to update this account using
+your mailbox(es) settings.
+
+Use Files, Import menu to import mailboxes settings from Outlook Express (Windows XP),
+Windows Mail (Windows Vista), Windows Live Mail (Microsoft) or IAF and OEAccount files.
+
+MailAttente use currently only the implicit TLS SSL.
+
+The program can be run at windows start and minimized, use the Preferences, Options menu.
+
+In regular conditions, MailAttente can run minimized in the system tray.
+It can onbly be closed by right click on its icon and choose Quit, or in its main windows,
+with the Files, Quit menu.
+
+
+UNINSTALLATION
+Use control panel's program management system to uninstall the program.
+
+NOTICE
+MailAttente software can be used fee of charge for a non commercial use.
+
+MailAttente software cannot be copied, duplicated, distributed, transfered,
+offered to download without writen authorization of the author or the
+editor.
+
+Use MailAttente at your own risks. Take care, mail delete on server is irreversible.
+
+Overbyte ICS component by François PIETTE  <francois.piette@overbyte.be>
+SSL implementation includes code written by Arno Garrels <arno.garrels@gmx.de>
+OpenSSL license http://www.openssl.org .
+
+Outlook Express, Windows Mail, Windows Vista, Windows Live Mail, Microsoft names and logos
+are property of Microsoft Corporation.
+
+English explanation at the beginning of this document
+
+
+
+Vérification du courrier
+MailAttente Version 1.0.1.8
+
+OBJET
+Vérifie la présence de courrier sur les comptes POP3
+
+INSTALLATION
+Extraire l'archive et exécuter InstallMailAttente.exe, puis suivre les instructions
+du programme d'installation.
+
+UTILISATION
+Lors de son premier lancement, MailAttente crée un compte factice, vous devez modifier ce compte
+en utilisant les paramètres de votre compte de courrier.
+
+Utilier le menu Fichiers, Import pour importer des comptes de courrier  Outlook Express (Windows XP),
+Windows Mail (Windows Vista), Windows Live Mail (Microsoft) ou des fichiers AF et OEAccount.
+
+MailAttente utilise seulement SSL en mode TLS implicite.
+
+Dans des conditions normales, MailAttente peut être minimisé dans la zone de notification.
+Il ne peut être fermé que par un clic doit sur son icone et le menu Quitte, ou dans sa
+fenêtre principale avec le menu Fichiers, Quitte.
+
+DESINSTALLATION
+Utiliser le système de gestion de programmes du panneau de configuration pour
+désinstaller le programme.
+
+NOTICE
+Le logiciel MailAttente peut être utilisé gratuitement pour une utilisation non commerciale.
+
+Le logiciel MailAttente ne peut pas être copié, distribué, transféré, proposé
+au téléchargement sans l'autorisation écrite de l'auteur ou de l'éditeur.
+
+Utilisez MailAttente à vos risques et périls. Attention, l'effacement d'un message sur
+le serveur est irréversible.
+
+Composant Overbyte ICS par François PIETTE  <francois.piette@overbyte.be>
+Implémentation SSL comprend du code écrit par Arno Garrels <arno.garrels@gmx.de>
+Licence OpenSSL http://www.openssl.org .
+
+Les noms et logos Outlook Express, Windows Mail, Windows Vista, Windows Live Mail,
+Microsoft sont la propriété de Microsoft Corporation.
+
+SDTP - bb95 - May 2013
+Web : http://www.sdtp.com
+

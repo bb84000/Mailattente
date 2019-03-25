@@ -1,0 +1,18 @@
+; Icones (doivent être placées alphabétiquement après MAINICON
+;MAINICON     ICON "images\mainicon.ico"
+;TRAYICON     ICON "images\trayicon.ico"
+XATT0         ICON "images\mainicon.ico"
+XATT1         ICON "images\getmail1.ico"
+XATT2         ICON "images\getmail2.ico"
+XATT3         ICON "images\getmail3.ico"
+XATT4         ICON "images\getmail4.ico"
+XATT5         ICON "images\getmail5.ico"
+
+
+MAIL        BITMAP "images\mail.bmp"
+MAILNEW     BITMAP "images\mailnew.bmp"
+MAILATT     BITMAP "images\mailatt.bmp"
+MAILNEWATT  BITMAP "images\mailnewatt.bmp"
+MAIN        BITMAP "images\trayicon.bmp"
+USER        BITMAP "images\user.bmp"
+MAILDEL     BITMAP "images\maildel.bmp"
