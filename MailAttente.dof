@@ -115,7 +115,7 @@ AutoIncBuild=0
 MajorVer=1
 MinorVer=0
 Release=1
-Build=8
+Build=9
 Debug=0
 PreRelease=1
 Special=0
@@ -126,13 +126,13 @@ CodePage=1252
 [Version Info Keys]
 CompanyName=sdtp
 FileDescription=POP mail notifier
-FileVersion=1.0.1.8
+FileVersion=1.0.1.9
 InternalName=MailAttente
 LegalCopyright=bb95 - sdtp
 LegalTrademarks=bb95 - sdtp
 OriginalFilename=MailAttente.exe
 ProductName=MailAttente
-ProductVersion=1.0.1.8
+ProductVersion=1.0.1.9
 WebSite=www.sdtp.com
 [HistoryLists\hlConditionals]
 Count=1

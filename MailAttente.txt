@@ -1,5 +1,5 @@
 Mail notifier application
-Version 1.0.1.8
+Version 1.0.1.9
 
 (Explication en Français à la fin de ce fichier)
 
@@ -91,6 +91,6 @@ Licence OpenSSL http://www.openssl.org .
 Les noms et logos Outlook Express, Windows Mail, Windows Vista, Windows Live Mail,
 Microsoft sont la propriété de Microsoft Corporation.
 
-SDTP - bb95 - May 2013
+SDTP - bb95 - june 2019
 Web : http://www.sdtp.com
 

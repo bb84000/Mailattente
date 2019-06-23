@@ -23,8 +23,8 @@
    RequestExecutionLevel admin
 
   ;Windows 8 manifest
-  !packhdr "$%TEMP%\exehead.tmp" '"${NSISDIR}\mt.exe" -manifest "${NSISDIR}\app.manifest" -updateresource:"$%TEMP%\exehead.tmp"'
-
+  ;!packhdr "$%TEMP%\exehead.tmp" '"${NSISDIR}\mt.exe" -manifest "${NSISDIR}\app.manifest" -updateresource:"$%TEMP%\exehead.tmp"'
+   ManifestSupportedOS all
   
   !define MUI_ICON "${source_dir}\images\mainicon.ico"
   !define MUI_UNICON "${source_dir}\images\mainicon.ico"
@@ -62,7 +62,7 @@
   !insertmacro MUI_PAGE_LICENSE $(licence)
   !insertmacro MUI_PAGE_DIRECTORY
   !insertmacro MUI_PAGE_INSTFILES
- ; !insertmacro MUI_DEFAULT MUI_FINISHPAGE_TEXT_REBOOT "$(MUI_${MUI_PAGE_UNINSTALLER_PREFIX}TEXT_FINISH_INFO_REBOOT)"
+  !insertmacro MUI_DEFAULT MUI_FINISHPAGE_TEXT_REBOOT "$(MUI_${MUI_PAGE_UNINSTALLER_PREFIX}TEXT_FINISH_INFO_REBOOT)"
   !insertmacro MUI_PAGE_FINISH
 
   !insertmacro MUI_UNPAGE_WELCOME
@@ -75,6 +75,8 @@
 
   !insertmacro MUI_LANGUAGE "English"
   !insertmacro MUI_LANGUAGE "French"
+  
+ 
 
   LangString DescStr ${LANG_ENGLISH}  "POP3 mail check"
   LangString DescStr ${LANG_FRENCH} "Vérification de courrier POP3"
@@ -97,19 +99,20 @@
   LangString HelpStr ${LANG_FRENCH} "Aide de MailAttente.lnk"
 
   ;Language strings for language selection dialog
-  LangString LangDialog_Title ${LANG_ENGLISH}" "Installer Language|$(^CancelBtn)"
-  LangString LangDialog_Title ${LANG_FRENCH}" "Langue d'installation|$(^CancelBtn)"
+  LangString LangDialog_Title ${LANG_ENGLISH} "Installer Language|$(^CancelBtn)"
+  LangString LangDialog_Title ${LANG_FRENCH} "Langue d'installation|$(^CancelBtn)"
 
-  LangString LangDialog_Text ${LANG_ENGLISH}" "Please select the installer language."
-  LangString LangDialog_Text ${LANG_FRENCH}" "Choisissez la langue du programme d'installation."
+  LangString LangDialog_Text ${LANG_ENGLISH} "Please select the installer language."
+  LangString LangDialog_Text ${LANG_FRENCH} "Choisissez la langue du programme d'installation."
 
   ;language strings for checkbox
-  LangString Check_box ${LANG_ENGLISH}" "Install a shortcut on the desktop"
-  LangString Check_box ${LANG_FRENCH}" "Installer un raccourci sur le bureau"
+  LangString Check_box ${LANG_ENGLISH} "Install a shortcut on the desktop"
+  LangString Check_box ${LANG_FRENCH} "Installer un raccourci sur le bureau"
   
-  LangString Exec_Box ${LANG_ENGLISH}" "Launch MailAttente now"
-  LangString Exec_Box ${LANG_FRENCH}" "Lancer MailAttente maintenant"
-  
+  LangString Exec_Box ${LANG_ENGLISH} "Launch MailAttente now"
+  LangString Exec_Box ${LANG_FRENCH} "Lancer MailAttente maintenant"
+
+
   !execute '"${NSISDIR}\GetVersion.exe" "${source_dir}\MailAttente.exe" "NSIS"'
   !include "${source_dir}\version.txt"
 

@@ -174,6 +174,7 @@ uses
     MouseMsgIndex: Integer;
     WM_TASKBAR_CREATED: DWORD;
     TrayProps: TrayIconProps;
+    CanQuit: Boolean;
     procedure AppMessage(var Msg: TMsg; var Handled: Boolean);
     procedure CreateTrayIcon(properties: TrayIconProps);
     procedure LoadTrayIconProps(properties: TrayIconProps);
@@ -451,6 +452,7 @@ var
 begin
   Inherited;
   First:= True;
+  CanQuit:= false;
   //Obtain message value when task bar created
   WM_TASKBAR_CREATED:= RegisterWindowMessage('TaskBarCreated');
   // Boucle de messages de l'application
@@ -2650,7 +2652,7 @@ var
   index: integer;
   MailFileName: String;
 begin
-
+  CanQuit:= true;
   if MailAccounts.Count > 0 then
   For index:= 0 to MailAccounts.Count-1 do
   try
@@ -2676,12 +2678,17 @@ end;
 
 procedure TFMailAtt.FormCloseQuery(Sender: TObject; var CanClose: Boolean);
 begin
-  MailAccounts.Free;
-  FreeAndNil(TrayProps.PrIcon);
-  FreeAndNil(TrayMailAtt);
-  FreeAndNil(langnums);
-  FreeAndNil(langfile);
-  CanClose:= True;
+  // Maage the taskbar icon close
+  If CanQuit then
+  begin
+    MailAccounts.Free;
+    FreeAndNil(TrayProps.PrIcon);
+    FreeAndNil(TrayMailAtt);
+    FreeAndNil(langnums);
+    FreeAndNil(langfile);
+    CanClose:= True;
+  end else PTrayMnuMinimizeClick(Sender);;
+  CanClose:= CanQuit;
 end;
 
 procedure TFMailAtt.Pop3Cli1StateChange(Sender: TObject);
