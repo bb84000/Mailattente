@@ -794,7 +794,7 @@ begin
   VersionInfo.Free;
   //version:= '0.8.0.0';
   UpdateUrl:= 'http://www.sdtp.com/versions/version.php?program=mailattente&version=';
-  ChkVerURL:= 'http://www.sdtp.com/versions/versions.csv';
+  ChkVerURL:= 'https://www.sdtp.com/versions/versions.csv';
 
   CfgXML:= TjanXMLParser2.create;
   CfgXML.LoadXML(ConfigFile);
